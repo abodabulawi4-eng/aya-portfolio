@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AbdallaPortfolio",
   "resources": {
-    "hash": "sha256-Y695sWMDcX2nBQFZooWhEa8iW8eedqpROtahyjCzLWc=",
+    "hash": "sha256-EyXIBXIajP3zqHPidLFQ0q6jDtJgSL2LNOxan+xn8DQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-7Sr9r0634sTFicx8ls0XdrHWZCCap615Q5ByQIrsd0Y="
     },
@@ -47,7 +47,7 @@
       "System.Text.Json.wasm": "sha256-Z/FWnxJFAOFXi9AgNCKlBCVPRlU1VpAnLbFCyLnegtI=",
       "System.Text.RegularExpressions.wasm": "sha256-SW5L77HZP6F1seYrYKk/8bCw55JedaRD8wTtEYIeaPY=",
       "System.Private.CoreLib.wasm": "sha256-VpCNNJjVhAQOI97H6v7GuTL8TXvad9y1UuBCQ1UvHPY=",
-      "AbdallaPortfolio.wasm": "sha256-KLETujKNE/rznhHhPCOKMqFMUU1Gd5cHsykpEqjyFtU="
+      "AbdallaPortfolio.wasm": "sha256-6PGJ07V377VZBoPHjWNv067DOpgCez8WokTnHbhnYP4="
     }
   },
   "cacheBootResources": true,
