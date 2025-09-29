@@ -1,0 +1,5 @@
+C:\Users\abdalla\AbdallaPortfolio\test-publish\netlify-publish\web.config
+C:\Users\abdalla\AbdallaPortfolio\test-publish\netlify-publish\AbdallaPortfolio.staticwebassets.endpoints.json
+C:\Users\abdalla\AbdallaPortfolio\test-publish\netlify-publish\wwwroot\manifest.json
+C:\Users\abdalla\AbdallaPortfolio\test-publish\netlify-publish\wwwroot\_framework\blazor.boot.json
+C:\Users\abdalla\AbdallaPortfolio\test-publish\web.config

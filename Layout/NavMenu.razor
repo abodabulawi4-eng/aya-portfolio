@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+@inject NavigationManager NavManager
+
+<nav class="navbar">
+    <div class="nav-container container">
+        <div class="nav-brand">
+            <NavLink href="/" class="brand-link">
+                <span class="brand-name">Abdalla</span>
+                <span class="brand-accent">Hani</span>
+            </NavLink>
+        </div>
+        
+                <div class="nav-links">
+            <NavLink href="/" class="nav-link" Match="NavLinkMatch.All">
+                <span class="nav-icon">🏠</span> Home
+            </NavLink>
+            <NavLink href="about" class="nav-link">
+                <span class="nav-icon">👤</span> About
+            </NavLink>
+            <NavLink href="skills" class="nav-link">
+                <span class="nav-icon">💻</span> Skills
+            </NavLink>
+            <NavLink href="projects" class="nav-link">
+                <span class="nav-icon">🚀</span> Projects
+            </NavLink>
+            <NavLink href="contact" class="nav-link">
+                <span class="nav-icon">📞</span> Contact
+            </NavLink>
+        </div>
+
+                <button class="mobile-menu-btn" @onclick="ToggleMobileMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<div class="mobile-menu @(isMobileMenuOpen ? "active" : "")">
+        <NavLink href="/" class="mobile-nav-link" Match="NavLinkMatch.All" @onclick="CloseMobileMenu">
+        <span class="nav-icon">🏠</span> Home
+    </NavLink>
+    <NavLink href="about" class="mobile-nav-link" @onclick="CloseMobileMenu">
+        <span class="nav-icon">👤</span> About
+    </NavLink>
+    <NavLink href="skills" class="mobile-nav-link" @onclick="CloseMobileMenu">
+        <span class="nav-icon">💻</span> Skills
+    </NavLink>
+    <NavLink href="projects" class="mobile-nav-link" @onclick="CloseMobileMenu">
+        <span class="nav-icon">🚀</span> Projects
+    </NavLink>
+    <NavLink href="contact" class="mobile-nav-link" @onclick="CloseMobileMenu">
+        <span class="nav-icon">📞</span> Contact
+    </NavLink>
+</div>
+
+@code {
+    private bool isMobileMenuOpen = false;
+    
+    private void ToggleMobileMenu()
+    {
+        isMobileMenuOpen = !isMobileMenuOpen;
+    }
+
+    private void CloseMobileMenu()
+    {
+        isMobileMenuOpen = false;
+    }
+}

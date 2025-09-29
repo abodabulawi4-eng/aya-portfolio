@@ -1,0 +1,395 @@
+﻿@page "/projects"
+
+<div class="projects-page">
+    <!-- Header -->
+    <section class="projects-hero">
+        <div class="container">
+            <div class="projects-hero-content">
+                <h1>My <span class="text-accent">Projects</span></h1>
+                <p class="hero-description">
+                    A showcase of my work in artificial intelligence, machine learning, and web development. 
+                    Each project represents a unique challenge and learning opportunity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="projects-grid">
+                
+                <!-- Project 1: AI Student Project Classifier -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-badge">AI/ML</div>
+                        <div class="project-placeholder">
+                            <span>🤖 AI Project</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Student Project Classifier</h3>
+                        <p class="project-description">
+                            A machine learning model that automatically classifies student projects into relevant 
+                            categories using natural language processing and classification algorithms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <span>View Details</span>
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Smart Portfolio Website -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-badge">Web Dev</div>
+                        <div class="project-placeholder">
+                            <span>💼 Portfolio</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Portfolio Website</h3>
+                        <p class="project-description">
+                            A modern, responsive portfolio website built with Blazor WebAssembly, 
+                            featuring dark mode design and optimized performance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Blazor</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">HTML5</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <span>Live Demo</span>
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Sales Data Analyzer -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-badge">Data Analysis</div>
+                        <div class="project-placeholder">
+                            <span>📊 Data Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sales Data Analyzer</h3>
+                        <p class="project-description">
+                            A comprehensive data analysis tool that processes sales data, generates insights, 
+                            and creates interactive visualizations for business intelligence.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Power BI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <span>View Report</span>
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Image Recognition System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-badge">AI/ML</div>
+                        <div class="project-placeholder">
+                            <span>👁️ Computer Vision</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Image Recognition System</h3>
+                        <p class="project-description">
+                            A deep learning model using convolutional neural networks (CNN) to classify images 
+                            into multiple categories with high accuracy and real-time processing.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <span>View Model</span>
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="projects-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Interested in Working Together?</h2>
+                <p>Let's discuss how we can bring your next project to life</p>
+                <div class="cta-buttons">
+                    <a href="/contact" class="btn btn-primary">Start a Project</a>
+                    <a href="/skills" class="btn btn-secondary">View My Skills</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<style>
+    .projects-page {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    }
+
+    /* Header */
+    .projects-hero {
+        padding: 120px 0 80px;
+        background: linear-gradient(135deg, rgba(14, 165, 164, 0.1) 0%, transparent 100%);
+        text-align: center;
+    }
+
+    .projects-hero-content h1 {
+        font-size: 3.5rem;
+        color: #f1f5f9;
+        margin-bottom: 1.5rem;
+    }
+
+    .text-accent {
+        color: #0ea5a4;
+    }
+
+    .hero-description {
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: #cbd5e1;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Projects Grid */
+    .projects-grid-section {
+        padding: 80px 0;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 2rem;
+    }
+
+    .project-card {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+    }
+
+    .project-card:hover {
+        transform: translateY(-10px);
+        border-color: #0ea5a4;
+        box-shadow: 0 20px 40px rgba(14, 165, 164, 0.2);
+    }
+
+    .project-image {
+        position: relative;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .project-badge {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background: rgba(14, 165, 164, 0.9);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        backdrop-filter: blur(10px);
+    }
+
+    .project-placeholder {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #0ea5a4, #22d3ee);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .project-content {
+        padding: 2rem;
+    }
+
+    .project-content h3 {
+        color: #f1f5f9;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-description {
+        color: #cbd5e1;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-tech {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .tech-tag {
+        background: rgba(14, 165, 164, 0.1);
+        color: #0ea5a4;
+        padding: 0.4rem 0.8rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border: 1px solid rgba(14, 165, 164, 0.3);
+    }
+
+    .project-links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .project-link {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #0ea5a4;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        padding: 0.5rem 0;
+    }
+
+    .project-link:hover {
+        color: #22d3ee;
+        gap: 0.7rem;
+    }
+
+    /* Call to Action */
+    .projects-cta {
+        padding: 80px 0;
+        background: linear-gradient(135deg, rgba(14, 165, 164, 0.1) 0%, transparent 100%);
+        text-align: center;
+    }
+
+    .cta-content h2 {
+        font-size: 2.5rem;
+        color: #f1f5f9;
+        margin-bottom: 1rem;
+    }
+
+    .cta-content p {
+        font-size: 1.2rem;
+        color: #cbd5e1;
+        margin-bottom: 2rem;
+    }
+
+    .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 15px 35px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        min-width: 180px;
+    }
+
+    .btn-primary {
+        background: #0ea5a4;
+        color: white;
+    }
+
+    .btn-primary:hover {
+        background: #22d3ee;
+        transform: translateY(-3px);
+        box-shadow: 0 15px 30px rgba(14, 165, 164, 0.4);
+    }
+
+    .btn-secondary {
+        background: transparent;
+        color: #0ea5a4;
+        border: 2px solid #0ea5a4;
+    }
+
+    .btn-secondary:hover {
+        background: #0ea5a4;
+        color: white;
+        transform: translateY(-3px);
+    }
+
+    /* Responsive Design */
+    @@media (max-width: 768px) {
+        .projects-hero-content h1 {
+            font-size: 2.5rem;
+        }
+
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .cta-content h2 {
+            font-size: 2rem;
+        }
+
+        .cta-buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn {
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+
+    @@media (max-width: 480px) {
+        .projects-hero-content h1 {
+            font-size: 2rem;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+        }
+    }
+</style>

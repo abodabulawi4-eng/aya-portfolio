@@ -1,0 +1,5 @@
+C:\Users\abdalla\abdalla-portfolio\docs\docs\web.config
+C:\Users\abdalla\abdalla-portfolio\docs\docs\AbdallaPortfolio.staticwebassets.endpoints.json
+C:\Users\abdalla\abdalla-portfolio\docs\docs\wwwroot\manifest.json
+C:\Users\abdalla\abdalla-portfolio\docs\docs\wwwroot\_framework\blazor.boot.json
+C:\Users\abdalla\abdalla-portfolio\docs\web.config
