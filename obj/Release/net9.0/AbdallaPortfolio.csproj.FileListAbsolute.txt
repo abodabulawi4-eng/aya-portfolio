@@ -1074,13 +1074,6 @@ C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\AbdallaPortfolio.pdb
 C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\ref\AbdallaPortfolio.dll
 C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\AbdallaPortfolio.sourcelink.json
 C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\compressed\te5rh5g2fi-8ex9gtadqn.gz
-C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.a8xifz2m77.wasm
-C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.87xlvoajgh.pdb
-C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.a8xifz2m77.wasm.gz
-C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.87xlvoajgh.pdb.gz
-C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\compressed\aq2gagndw0-a8xifz2m77.gz
-C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\compressed\855m6exs3v-87xlvoajgh.gz
-C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\compressed\p5pp22jxmo-kjaio8na4f.gz
 C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\web.config
 C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\AbdallaPortfolio.staticwebassets.endpoints.json
 C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\wwwroot\manifest.json
@@ -1097,3 +1090,13 @@ C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\publish\publish\pub
 C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\publish\publish\publish\publish\AbdallaPortfolio.staticwebassets.endpoints.json
 C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\publish\publish\publish\publish\wwwroot\manifest.json
 C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\publish\publish\publish\publish\wwwroot\_framework\blazor.boot.json
+C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.7szfki72yn.wasm
+C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.1a6lmuw1us.pdb
+C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.7szfki72yn.wasm.gz
+C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\wwwroot\_framework\AbdallaPortfolio.1a6lmuw1us.pdb.gz
+C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\publish\publish\publish\publish\publish\AbdallaPortfolio.staticwebassets.endpoints.json
+C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\publish\publish\publish\publish\publish\wwwroot\manifest.json
+C:\Users\abdalla\AbdallaPortfolio\bin\Release\net9.0\publish\publish\publish\publish\publish\publish\wwwroot\_framework\blazor.boot.json
+C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\compressed\aq2gagndw0-7szfki72yn.gz
+C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\compressed\855m6exs3v-1a6lmuw1us.gz
+C:\Users\abdalla\AbdallaPortfolio\obj\Release\net9.0\compressed\p5pp22jxmo-de47zj2dyc.gz

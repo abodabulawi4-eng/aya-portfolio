@@ -4,6 +4,9 @@ C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\AbdallaPortfolio.stati
 C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\AbdallaPortfolio.staticwebassets.endpoints.json
 C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\AbdallaPortfolio.staticwebassets.endpoints.json
 C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\publish\AbdallaPortfolio.staticwebassets.endpoints.json
+C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\publish\publish\AbdallaPortfolio.staticwebassets.endpoints.json
+C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\publish\publish\wwwroot\manifest.json
+C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\publish\publish\wwwroot\_framework\blazor.boot.json
 C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\publish\wwwroot\manifest.json
 C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\publish\wwwroot\_framework\blazor.boot.json
 C:\Users\abdalla\AbdallaPortfolio\publish\publish\publish\publish\publish\wwwroot\manifest.json
