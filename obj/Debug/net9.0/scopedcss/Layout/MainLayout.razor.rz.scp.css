@@ -9,7 +9,8 @@ main[b-4zbue3j769] {
 }
 
 .sidebar[b-4zbue3j769] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    /* تم تغيير التدرج اللوني من أزرق إلى فوشي/وردي */
+    background-image: linear-gradient(180deg, rgb(88, 28, 135) 0%, #d946ef 70%);
 }
 
 .top-row[b-4zbue3j769] {

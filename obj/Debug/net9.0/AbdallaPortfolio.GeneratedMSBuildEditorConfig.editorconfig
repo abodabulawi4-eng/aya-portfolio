@@ -13,53 +13,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = AbdallaPortfolio
 build_property.RootNamespace = AbdallaPortfolio
-build_property.ProjectDir = C:\Users\abdalla\AbdallaPortfolio\
+build_property.ProjectDir = C:\Users\abdalla\Desktop\AbdallaPortfolio\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\abdalla\AbdallaPortfolio
+build_property.MSBuildProjectDirectory = C:\Users\abdalla\Desktop\AbdallaPortfolio
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/abdalla/AbdallaPortfolio/App.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/Layout/Footer.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Layout/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/Pages/About.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Pages/About.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/Pages/Contact.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Pages/Contact.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/Pages/Home.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/Pages/Projects.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Pages/Projects.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/Pages/Skills.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Pages/Skills.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2tpbGxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/_Imports.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdalla/AbdallaPortfolio/Layout/MainLayout.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4zbue3j769
 
-[C:/Users/abdalla/AbdallaPortfolio/Layout/NavMenu.razor]
+[C:/Users/abdalla/Desktop/AbdallaPortfolio/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ee3e9f3vdo

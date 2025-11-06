@@ -1,16 +1,16 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
 
 <div class="main-layout">
-    <!-- 🔗 Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-brand">
                 <a href="/" class="brand-link">
-                    <span class="brand-name">Abdalla</span>
-                    <span class="brand-accent">Hani</span>
+                    <span class="brand-name">Aya</span>
+                    <span class="brand-accent">Alqennah</span>
                 </a>
             </div>
-            
+
             <div class="nav-links">
                 <a href="/" class="nav-link @GetActiveClass("/")">
                     <span class="nav-icon">🏠</span>
@@ -34,8 +34,7 @@
                 </a>
             </div>
 
-            <!-- Mobile Menu Button -->
-            <button class="mobile-menu-btn" @onclick="ToggleMobileMenu">
+            <button class="mobile-menu-btn @(isMobileMenuOpen ? "active" : "")" @onclick="ToggleMobileMenu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -43,7 +42,6 @@
         </div>
     </nav>
 
-    <!-- Mobile Menu -->
     <div class="mobile-menu @(isMobileMenuOpen ? "active" : "")">
         <a href="/" class="mobile-nav-link" @onclick="CloseMobileMenu">
             <span class="nav-icon">🏠</span>
@@ -67,20 +65,18 @@
         </a>
     </div>
 
-    <!-- Main Content -->
     <main class="main-content">
         @Body
     </main>
 
-    <!-- ⬇️ Footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Abdalla Hani</h3>
-                    <p>AI Programmer specialized in building innovative solutions</p>
+                    <h3>Aya Alqennah</h3>
+                    <p>Cybersecurity Student and Developer. Securing the digital world, one challenge at a time.</p>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <div class="footer-links">
@@ -89,48 +85,38 @@
                         <a href="/contact">Contact</a>
                     </div>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4>Connect</h4>
                     <div class="social-links">
-                        <a href="https://linkedin.com/in/abdallahani" target="_blank" class="social-link">
+                        <a href="https://www.linkedin.com/in/aya-alqennah-238a52395?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-link">
                             LinkedIn
                         </a>
-                        <a href="https://github.com/abdallahani" target="_blank" class="social-link">
+                        <a href="[Your-GitHub-URL]" target="_blank" class="social-link">
                             GitHub
                         </a>
-                        <a href="mailto:your.email@example.com" class="social-link">
+                        <a href="mailto:alqennahaya96@gmail.com" class="social-link">
                             Email
                         </a>
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
-                <p>&copy; 2024 Abdalla Hani Abulawi. All rights reserved.</p>
+                <p>&copy; 2024 Aya zeyad Alqennah. All rights reserved.</p>
             </div>
         </div>
     </footer>
 </div>
 
 <style>
-    /* 🌙 Variables */
-    :root {
-        --primary-dark: #0f172a;
-        --secondary-dark: #1e293b;
-        --accent-teal: #0ea5a4;
-        --accent-light: #22d3ee;
-        --text-primary: #f1f5f9;
-        --text-secondary: #cbd5e1;
-        --text-muted: #94a3b8;
-        --border-color: #334155;
-    }
-
-    /* 🔗 Navigation Bar */
+    /* 🔗 Navigation Bar (Glass Effect) */
     .navbar {
-        background: rgba(15, 23, 42, 0.95);
-        backdrop-filter: blur(20px);
+        background: rgba(248, 246, 249, 0.8); /* --bg-primary with opacity */
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
         border-bottom: 1px solid var(--border-color);
+        box-shadow: 0 5px 15px var(--shadow-color);
         position: fixed;
         top: 0;
         width: 100%;
@@ -156,11 +142,11 @@
     }
 
     .brand-name {
-        color: var(--text-primary);
+        color: var(--text-primary); /* رمادي غامق */
     }
 
     .brand-accent {
-        color: var(--accent-teal);
+        color: var(--accent-rose-gold); /* #B76E79 */
     }
 
     /* 📎 Navigation Links */
@@ -171,7 +157,7 @@
     }
 
     .nav-link {
-        color: var(--text-secondary);
+        color: var(--text-secondary); /* رمادي بنفسجي */
         text-decoration: none;
         font-weight: 500;
         transition: all 0.3s ease;
@@ -183,15 +169,16 @@
         position: relative;
     }
 
-    .nav-link:hover {
-        color: var(--accent-teal);
-        background: rgba(14, 165, 164, 0.1);
-    }
+        .nav-link:hover {
+            color: var(--accent-rose-gold);
+            background: rgba(230, 164, 180, 0.1); /* Rose Gold hover */
+        }
 
-    .nav-link.active {
-        color: var(--accent-teal);
-        background: rgba(14, 165, 164, 0.15);
-    }
+        .nav-link.active {
+            color: var(--accent-rose-gold);
+            background: rgba(230, 164, 180, 0.15); /* Rose Gold active */
+            font-weight: 600;
+        }
 
     .nav-icon {
         font-size: 1.1rem;
@@ -208,13 +195,26 @@
         gap: 4px;
     }
 
-    .mobile-menu-btn span {
-        width: 25px;
-        height: 3px;
-        background: var(--text-primary);
-        transition: all 0.3s ease;
-        border-radius: 2px;
-    }
+        .mobile-menu-btn span {
+            width: 25px;
+            height: 3px;
+            background: var(--text-primary); /* رمادي غامق */
+            transition: all 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .mobile-menu-btn.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .mobile-menu-btn.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-menu-btn.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
 
     /* 📱 Mobile Menu */
     .mobile-menu {
@@ -223,17 +223,17 @@
         top: 80px;
         left: 0;
         width: 100%;
-        background: var(--primary-dark);
+        background: var(--bg-primary);
         border-top: 1px solid var(--border-color);
         padding: 1rem 0;
-        transform: translateY(-100%);
-        transition: transform 0.3s ease;
+        transform: translateY(-110%);
+        transition: transform 0.4s ease;
         z-index: 999;
     }
 
-    .mobile-menu.active {
-        transform: translateY(0);
-    }
+        .mobile-menu.active {
+            transform: translateY(0);
+        }
 
     .mobile-nav-link {
         display: flex;
@@ -246,20 +246,24 @@
         transition: all 0.3s ease;
     }
 
-    .mobile-nav-link:hover {
-        color: var(--accent-teal);
-        background: rgba(14, 165, 164, 0.1);
-    }
+        .mobile-nav-link:last-child {
+            border-bottom: none;
+        }
+
+        .mobile-nav-link:hover {
+            color: var(--accent-rose-gold);
+            background: rgba(230, 164, 180, 0.1);
+        }
 
     /* 📱 Main Content */
     .main-content {
         min-height: 100vh;
-        padding-top: 80px; /* Offset for fixed navbar */
+        padding-top: 81px;
     }
 
     /* ⬇️ Footer */
     .footer {
-        background: var(--secondary-dark);
+        background: var(--bg-secondary); /* زهري رمادي فاتح */
         border-top: 1px solid var(--border-color);
         padding: 3rem 0 1rem;
         margin-top: 4rem;
@@ -279,7 +283,7 @@
     }
 
     .footer-section h3 {
-        color: var(--accent-teal);
+        color: var(--accent-rose-gold);
         margin-bottom: 1rem;
         font-size: 1.5rem;
     }
@@ -301,15 +305,15 @@
         gap: 0.5rem;
     }
 
-    .footer-links a {
-        color: var(--text-secondary);
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
 
-    .footer-links a:hover {
-        color: var(--accent-teal);
-    }
+            .footer-links a:hover {
+                color: var(--accent-rose-gold);
+            }
 
     .social-links {
         display: flex;
@@ -324,9 +328,9 @@
         padding: 0.5rem 0;
     }
 
-    .social-link:hover {
-        color: var(--accent-teal);
-    }
+        .social-link:hover {
+            color: var(--accent-rose-gold);
+        }
 
     .footer-bottom {
         border-top: 1px solid var(--border-color);
@@ -373,9 +377,20 @@
 @code {
     private bool isMobileMenuOpen = false;
 
+    [Inject]
+    private NavigationManager NavManager { get; set; }
+
     private string GetActiveClass(string path)
     {
-        // Active class will be applied based on current page
+        var currentUri = new Uri(NavManager.Uri).AbsolutePath;
+        if (path == "/" && currentUri == "/")
+        {
+            return "active";
+        }
+        if (path != "/" && currentUri.StartsWith(path, StringComparison.OrdinalIgnoreCase))
+        {
+            return "active";
+        }
         return "";
     }
 

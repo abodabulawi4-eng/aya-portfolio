@@ -1,11 +1,11 @@
 {
-  "name": "Abdalla Hani Abulawi - AI Programmer",
-  "short_name": "Abdalla Portfolio",
-  "description": "Portfolio of Abdalla Hani Abulawi - Artificial Intelligence Programmer",
+  "name": "Aya Alqennah - Cyber Security",
+  "short_name": "Aya Portfolio",
+  "description": "Portfolio of Aya Alqennah - Cyber Security Student",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",
-  "theme_color": "#0ea5a4",
+  "theme_color": "#d946ef",
   "icons": [
     {
       "src": "icon-192.png",
@@ -18,4 +18,4 @@
       "type": "image/png"
     }
   ]
-}
+}س

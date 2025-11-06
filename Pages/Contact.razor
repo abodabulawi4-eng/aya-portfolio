@@ -1,53 +1,52 @@
 ﻿@page "/contact"
 
 <div class="contact-page">
-    <!-- Header -->
     <section class="contact-hero">
         <div class="container">
             <div class="contact-hero-content">
                 <h1>Let's <span class="text-accent">Connect</span></h1>
                 <p class="hero-description">
-                    Ready to start your next project? I'm always interested in new opportunities and collaborations. 
+                    Ready to start your next project?
+                    I'm always interested in new opportunities and collaborations.
                     Let's discuss how we can work together to bring your ideas to life.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Information -->
     <section class="contact-content">
         <div class="container">
             <div class="contact-grid">
-                
-                <!-- Contact Information -->
+
                 <div class="contact-info-section">
                     <h2>Get In Touch</h2>
                     <p class="contact-intro">
-                        Feel free to reach out through any of these channels. I typically respond within 24 hours.
+                        Feel free to reach out through any of these channels.
+                        I typically respond within 24 hours.
                     </p>
 
                     <div class="contact-methods">
-                <div class="contact-method">
-    <div class="method-icon">📧</div>
-    <div class="method-info">
-        <h4>Email</h4>
-        <p>abodabulawi4@gmail.com</p>
-        <div class="email-buttons">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abodabulawi4@gmail.com" 
-               target="_blank" class="method-link">
-                Open Gmail
-            </a>
-            <button class="copy-btn" onclick="copyEmail()">Copy Email</button>
-        </div>
-    </div>
-</div>
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <p>alqennahaya96@gmail.com</p>
+                                <div class="email-buttons">
+                                    <a href="mailto:alqennahaya96@gmail.com"
+                                       target="_blank" class="method-link">
+                                        Send Email
+                                    </a>
+                                    <button class="copy-btn" onclick="copyEmail()">Copy Email</button>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="contact-method">
                             <div class="method-icon">📱</div>
                             <div class="method-info">
                                 <h4>Phone</h4>
-                                <p>+962 790 015 036</p>
-                                <a href="tel:+962790015036" class="method-link">Call now</a>
+                                <p>+962 7 9642 1338</p>
+                                <a href="tel:+962796421338" class="method-link">Call now</a>
                             </div>
                         </div>
 
@@ -56,7 +55,7 @@
                             <div class="method-info">
                                 <h4>LinkedIn</h4>
                                 <p>Connect professionally</p>
-                                <a href="https://www.linkedin.com/in/abdalla-abulawi-5bab172a0" target="_blank" class="method-link">View Profile</a>
+                                <a href="https://www.linkedin.com/in/aya-alqennah-238a52395?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="method-link">View Profile</a>
                             </div>
                         </div>
 
@@ -65,15 +64,18 @@
                             <div class="method-info">
                                 <h4>GitHub</h4>
                                 <p>Explore my code</p>
-                                <a href="https://github.com/abdallahani" target="_blank" class="method-link">View Repositories</a>
+                                <a href="[Your-GitHub-URL]" target="_blank" class="method-link">View Repositories</a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Availability -->
+
                     <div class="availability-card">
                         <h4>🟢 Currently Available</h4>
-                        <p>I'm currently available for new projects and collaborations. Let's discuss your ideas!</p>
+                        <p>
+                            I'm currently available for new projects and collaborations.
+                            Let's discuss your ideas!
+                        </p>
                         <div class="availability-status">
                             <span class="status-dot"></span>
                             <span>Open to opportunities</span>
@@ -85,7 +87,6 @@
         </div>
     </section>
 
-    <!-- Call to Action -->
     <section class="contact-cta">
         <div class="container">
             <div class="cta-content">
@@ -103,30 +104,30 @@
 <style>
     .contact-page {
         min-height: 100vh;
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        background: var(--bg-primary);
     }
 
     /* Header */
     .contact-hero {
         padding: 120px 0 80px;
-        background: linear-gradient(135deg, rgba(14, 165, 164, 0.1) 0%, transparent 100%);
+        background: linear-gradient(135deg, rgba(242, 237, 244, 0.5) 0%, transparent 100%); /* --bg-secondary with opacity */
         text-align: center;
     }
 
     .contact-hero-content h1 {
         font-size: 3.5rem;
-        color: #f1f5f9;
+        color: var(--text-primary);
         margin-bottom: 1.5rem;
     }
 
     .text-accent {
-        color: #0ea5a4;
+        color: var(--accent-rose-gold);
     }
 
     .hero-description {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 1.8;
-        color: #cbd5e1;
+        color: var(--text-secondary);
         max-width: 800px;
         margin: 0 auto;
     }
@@ -146,13 +147,13 @@
 
     /* Contact Information */
     .contact-info-section h2 {
-        color: #f1f5f9;
+        color: var(--text-primary);
         margin-bottom: 1rem;
         font-size: 1.8rem;
     }
 
     .contact-intro {
-        color: #cbd5e1;
+        color: var(--text-secondary);
         margin-bottom: 2rem;
         line-height: 1.6;
     }
@@ -169,16 +170,17 @@
         align-items: flex-start;
         gap: 1rem;
         padding: 1.5rem;
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: var(--bg-primary); /* لؤلؤي */
+        border-radius: 12px; /* زوايا ناعمة */
+        border: 1px solid var(--border-color);
         transition: all 0.3s ease;
+        box-shadow: 0 5px 15px var(--shadow-color); /* ظل وردي باهت */
     }
 
-    .contact-method:hover {
-        border-color: #0ea5a4;
-        transform: translateX(5px);
-    }
+        .contact-method:hover {
+            border-color: var(--accent-rose-gold);
+            transform: translateX(5px);
+        }
 
     .method-icon {
         font-size: 1.5rem;
@@ -186,83 +188,88 @@
     }
 
     .method-info h4 {
-        color: #f1f5f9;
+        color: var(--text-primary);
         margin-bottom: 0.25rem;
         font-size: 1.1rem;
     }
 
     .method-info p {
-        color: #cbd5e1;
+        color: var(--text-secondary);
         margin-bottom: 0.5rem;
     }
 
     .method-link {
-        color: #0ea5a4;
+        color: var(--accent-rose-gold);
         text-decoration: none;
         font-weight: 500;
         transition: color 0.3s ease;
     }
 
-    .method-link:hover {
-        color: #22d3ee;
-    }
+        .method-link:hover {
+            color: var(--text-primary);
+        }
 
     /* Availability Card */
     .availability-card {
-        background: rgba(14, 165, 164, 0.1);
+        background: rgba(230, 164, 180, 0.1); /* --shadow-color */
         padding: 1.5rem;
         border-radius: 12px;
-        border: 1px solid rgba(14, 165, 164, 0.3);
+        border: 1px solid var(--border-color);
     }
 
-    .availability-card h4 {
-        color: #f1f5f9;
-        margin-bottom: 0.5rem;
-    }
+        .availability-card h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
 
-    .availability-card p {
-        color: #cbd5e1;
-        margin-bottom: 1rem;
-        line-height: 1.5;
-    }
+        .availability-card p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
 
     .availability-status {
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        color: #4ade80;
+        color: #008000; /* أخضر أغمق ليتناسب مع الخلفية الفاتحة */
         font-weight: 500;
     }
 
     .status-dot {
         width: 8px;
         height: 8px;
-        background: #4ade80;
+        background: #008000;
         border-radius: 50%;
         animation: pulse 2s infinite;
     }
 
     @@keyframes pulse {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.5; }
+        0%, 100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
     }
 
     /* Call to Action */
     .contact-cta {
         padding: 80px 0;
-        background: linear-gradient(135deg, rgba(14, 165, 164, 0.1) 0%, transparent 100%);
+        background: linear-gradient(135deg, rgba(242, 237, 244, 0.5) 0%, transparent 100%); /* --bg-secondary with opacity */
         text-align: center;
     }
 
     .cta-content h2 {
         font-size: 2.5rem;
-        color: #f1f5f9;
+        color: var(--text-primary);
         margin-bottom: 1rem;
     }
 
     .cta-content p {
-        font-size: 1.2rem;
-        color: #cbd5e1;
+        font-size: 1.1rem;
+        color: var(--text-secondary);
         margin-bottom: 2rem;
     }
 
@@ -277,7 +284,7 @@
         display: inline-block;
         padding: 15px 35px;
         border: none;
-        border-radius: 10px;
+        border-radius: 8px; /* زوايا ناعمة */
         font-size: 1.1rem;
         font-weight: 600;
         cursor: pointer;
@@ -287,27 +294,28 @@
     }
 
     .btn-primary {
-        background: #0ea5a4;
-        color: white;
+        background-image: linear-gradient(90deg, var(--accent-gradient-start) 0%, var(--accent-gradient-end) 100%);
+        color: var(--text-on-accent);
     }
 
-    .btn-primary:hover {
-        background: #22d3ee;
-        transform: translateY(-3px);
-        box-shadow: 0 15px 30px rgba(14, 165, 164, 0.4);
-    }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px var(--shadow-color);
+            filter: brightness(1.05);
+        }
 
     .btn-secondary {
-        background: transparent;
-        color: #0ea5a4;
-        border: 2px solid #0ea5a4;
+        background: var(--btn-secondary-bg);
+        border: 2px solid var(--btn-secondary-border);
+        color: var(--accent-rose-gold);
     }
 
-    .btn-secondary:hover {
-        background: #0ea5a4;
-        color: white;
-        transform: translateY(-3px);
-    }
+        .btn-secondary:hover {
+            background: var(--btn-secondary-hover);
+            color: var(--text-primary);
+            border-color: var(--accent-rose-gold);
+            transform: translateY(-3px);
+        }
 
     /* Responsive Design */
     @@media (max-width: 768px) {

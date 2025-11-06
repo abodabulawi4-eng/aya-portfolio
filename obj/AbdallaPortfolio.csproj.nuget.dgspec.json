@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdalla\\AbdallaPortfolio\\AbdallaPortfolio.csproj": {}
+    "C:\\Users\\abdalla\\Desktop\\AbdallaPortfolio\\AbdallaPortfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdalla\\AbdallaPortfolio\\AbdallaPortfolio.csproj": {
+    "C:\\Users\\abdalla\\Desktop\\AbdallaPortfolio\\AbdallaPortfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdalla\\AbdallaPortfolio\\AbdallaPortfolio.csproj",
+        "projectUniqueName": "C:\\Users\\abdalla\\Desktop\\AbdallaPortfolio\\AbdallaPortfolio.csproj",
         "projectName": "AbdallaPortfolio",
-        "projectPath": "C:\\Users\\abdalla\\AbdallaPortfolio\\AbdallaPortfolio.csproj",
+        "projectPath": "C:\\Users\\abdalla\\Desktop\\AbdallaPortfolio\\AbdallaPortfolio.csproj",
         "packagesPath": "C:\\Users\\abdalla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdalla\\AbdallaPortfolio\\obj\\",
+        "outputPath": "C:\\Users\\abdalla\\Desktop\\AbdallaPortfolio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

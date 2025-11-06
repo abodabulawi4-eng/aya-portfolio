@@ -1,15 +1,13 @@
 ﻿@page "/about"
 
 <div class="about-page">
-    <!-- Header Section -->
     <section class="about-hero">
         <div class="container">
             <div class="about-hero-content">
                 <div class="about-text">
-                    <h1>My Journey in <span class="text-accent">Artificial Intelligence</span></h1>
+                    <h1>My Journey in <span class="text-accent">Cyber Security</span></h1>
                     <p class="hero-description">
-                        A never-ending passion for discovering technology's capabilities and harnessing them to solve real-world problems. 
-                        From my first line of code to building complex AI models, this is my story.
+                        I'm a dedicated Cybersecurity student with hands-on experience in network security, penetration testing, and risk assessment.
                     </p>
                 </div>
                 <div class="about-stats">
@@ -18,98 +16,91 @@
                         <div class="stat-label">Years of Learning</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">+50</div>
+                        <div class="stat-number">+10</div>
                         <div class="stat-label">Technical Projects</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">∞</div>
-                        <div class="stat-label">Passion for Development</div>
+                        <div class="stat-label">Passion for Security</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Main Content -->
     <section class="about-main">
         <div class="container">
             <div class="about-grid">
-                <!-- Beginnings -->
+
                 <div class="about-card">
                     <div class="card-icon">🚀</div>
-                    <h3>The Beginning</h3>
+                    <h3>My Passion</h3>
                     <p>
-                        My programming journey started with C#, where I mastered programming fundamentals and web development. 
-                        I quickly moved to Python to explore the world of data and artificial intelligence.
+                        I’m passionate about understanding how cyberattacks work and developing strategies to prevent them.
                     </p>
                 </div>
 
-                <!-- Specialization -->
                 <div class="about-card">
                     <div class="card-icon">🧠</div>
-                    <h3>AI Specialization</h3>
+                    <h3>My Focus</h3>
                     <p>
-                        I specialized in machine learning and artificial intelligence, focusing on:
+                        I’m continuously learning and experimenting to strengthen my technical and analytical skills in:
                     </p>
                     <ul class="skills-list">
-                        <li>• Data analysis and exploration</li>
-                        <li>• Building prediction and classification models</li>
-                        <li>• Natural Language Processing (NLP)</li>
-                        <li>• Neural networks and deep learning</li>
+                        <li>• Network Security</li>
+                        <li>• Penetration Testing</li>
+                        <li>• Risk Assessment</li>
+                        <li>• Threat Analysis</li>
                     </ul>
                 </div>
 
-                <!-- Technologies -->
                 <div class="about-card">
                     <div class="card-icon">⚡</div>
-                    <h3>Technologies I Master</h3>
+                    <h3>Core Tools I Use</h3>
                     <div class="tech-stack">
                         <div class="tech-item">
-                            <span class="tech-name">Python</span>
+                            <span class="tech-name">Wireshark</span>
                             <div class="tech-bar">
                                 <div class="tech-progress" style="width: 90%"></div>
                             </div>
                         </div>
                         <div class="tech-item">
-                            <span class="tech-name">C# & .NET</span>
+                            <span class="tech-name">Metasploit</span>
                             <div class="tech-bar">
                                 <div class="tech-progress" style="width: 85%"></div>
                             </div>
                         </div>
                         <div class="tech-item">
-                            <span class="tech-name">Machine Learning</span>
+                            <span class="tech-name">Burp Suite</span>
                             <div class="tech-bar">
                                 <div class="tech-progress" style="width: 80%"></div>
                             </div>
                         </div>
                         <div class="tech-item">
-                            <span class="tech-name">Blazor</span>
+                            <span class="tech-name">Nmap</span>
                             <div class="tech-bar">
-                                <div class="tech-progress" style="width: 75%"></div>
+                                <div class="tech-progress" style="width: 85%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Future Vision -->
                 <div class="about-card">
                     <div class="card-icon">🎯</div>
                     <h3>Future Vision</h3>
                     <p>
-                        I aim to contribute to developing innovative AI solutions that meet society's needs and keep pace with 
-                        the global technological revolution. I constantly strive to learn and grow in this vast field.
+                        My long-term goal is to become a cybersecurity analyst and help organizations stay secure in the digital age.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Call to Action -->
     <section class="about-cta">
         <div class="container">
             <div class="cta-content">
                 <h2>Want to See My Projects?</h2>
-                <p>Explore my portfolio of AI and web development projects</p>
+                <p>Explore my portfolio of cyber security projects</p>
                 <div class="cta-buttons">
                     <a href="/projects" class="btn btn-primary">View Projects</a>
                     <a href="/contact" class="btn btn-secondary">Contact Me</a>
@@ -122,13 +113,15 @@
 <style>
     .about-page {
         min-height: 100vh;
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        /* استخدمنا لون الخلفية الأساسي */
+        background: var(--bg-primary);
     }
 
     /* Header Section */
     .about-hero {
         padding: 120px 0 80px;
-        background: linear-gradient(135deg, rgba(14, 165, 164, 0.1) 0%, transparent 100%);
+        /* خلفية شفافة هادئة */
+        background: linear-gradient(135deg, rgba(242, 237, 244, 0.5) 0%, transparent 100%); /* --bg-secondary with opacity */
     }
 
     .about-hero-content {
@@ -140,19 +133,20 @@
 
     .about-text h1 {
         font-size: 3.5rem;
-        color: #f1f5f9;
+        color: var(--text-primary);
         margin-bottom: 1.5rem;
         line-height: 1.2;
     }
 
     .text-accent {
-        color: #0ea5a4;
+        /* استخدمنا لون Rose Gold */
+        color: var(--accent-rose-gold);
     }
 
     .hero-description {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 1.8;
-        color: #cbd5e1;
+        color: var(--text-secondary);
         margin-bottom: 2rem;
     }
 
@@ -163,23 +157,25 @@
     }
 
     .stat-card {
-        background: rgba(255, 255, 255, 0.05);
+        background: var(--bg-primary); /* لؤلؤي */
         padding: 2rem;
-        border-radius: 15px;
+        border-radius: 15px; /* زوايا ناعمة */
         text-align: center;
         backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid var(--border-color);
+        box-shadow: 0 5px 15px var(--shadow-color); /* ظل وردي باهت */
     }
 
     .stat-number {
         font-size: 2.5rem;
         font-weight: 700;
-        color: #0ea5a4;
+        /* استخدمنا لون Rose Gold */
+        color: var(--accent-rose-gold);
         margin-bottom: 0.5rem;
     }
 
     .stat-label {
-        color: #94a3b8;
+        color: var(--text-muted);
         font-size: 0.9rem;
     }
 
@@ -195,19 +191,21 @@
     }
 
     .about-card {
-        background: rgba(255, 255, 255, 0.05);
+        background: var(--bg-primary); /* لؤلؤي */
         padding: 2.5rem;
-        border-radius: 20px;
+        border-radius: 20px; /* زوايا ناعمة */
         backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid var(--border-color);
         transition: all 0.3s ease;
+        box-shadow: 0 5px 15px var(--shadow-color); /* ظل وردي باهت */
     }
 
-    .about-card:hover {
-        transform: translateY(-10px);
-        border-color: #0ea5a4;
-        box-shadow: 0 20px 40px rgba(14, 165, 164, 0.2);
-    }
+        .about-card:hover {
+            transform: translateY(-5px); /* حركة أخف */
+            border-color: var(--accent-rose-gold);
+            /* ظل وردي خفيف كما طلبت */
+            box-shadow: 0 10px 30px var(--shadow-color);
+        }
 
     .card-icon {
         font-size: 3rem;
@@ -215,26 +213,26 @@
     }
 
     .about-card h3 {
-        color: #f1f5f9;
+        color: var(--text-primary);
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
 
     .about-card p {
-        color: #cbd5e1;
+        color: var(--text-secondary);
         line-height: 1.7;
         margin-bottom: 1rem;
     }
 
     .skills-list {
-        color: #cbd5e1;
+        color: var(--text-secondary);
         line-height: 1.8;
         padding-left: 1rem;
     }
 
-    .skills-list li {
-        margin-bottom: 0.5rem;
-    }
+        .skills-list li {
+            margin-bottom: 0.5rem;
+        }
 
     /* Technologies */
     .tech-stack {
@@ -247,20 +245,21 @@
 
     .tech-name {
         display: block;
-        color: #f1f5f9;
+        color: var(--text-primary);
         margin-bottom: 0.5rem;
         font-weight: 500;
     }
 
     .tech-bar {
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(242, 237, 244, 0.5); /* --bg-secondary with opacity */
         height: 8px;
         border-radius: 10px;
         overflow: hidden;
     }
 
     .tech-progress {
-        background: linear-gradient(90deg, #0ea5a4, #22d3ee);
+        /* تدرج لوني فخم */
+        background: linear-gradient(90deg, var(--accent-gradient-start), var(--accent-gradient-end));
         height: 100%;
         border-radius: 10px;
         transition: width 1s ease;
@@ -269,19 +268,19 @@
     /* Call to Action */
     .about-cta {
         padding: 80px 0;
-        background: linear-gradient(135deg, rgba(14, 165, 164, 0.1) 0%, transparent 100%);
+        background: linear-gradient(135deg, rgba(242, 237, 244, 0.5) 0%, transparent 100%); /* --bg-secondary with opacity */
         text-align: center;
     }
 
     .cta-content h2 {
         font-size: 2.5rem;
-        color: #f1f5f9;
+        color: var(--text-primary);
         margin-bottom: 1rem;
     }
 
     .cta-content p {
-        font-size: 1.2rem;
-        color: #cbd5e1;
+        font-size: 1.1rem;
+        color: var(--text-secondary);
         margin-bottom: 2rem;
     }
 
@@ -296,7 +295,7 @@
         display: inline-block;
         padding: 15px 35px;
         border: none;
-        border-radius: 10px;
+        border-radius: 8px; /* زوايا ناعمة */
         font-size: 1.1rem;
         font-weight: 600;
         cursor: pointer;
@@ -306,27 +305,28 @@
     }
 
     .btn-primary {
-        background: #0ea5a4;
-        color: white;
+        background-image: linear-gradient(90deg, var(--accent-gradient-start) 0%, var(--accent-gradient-end) 100%);
+        color: var(--text-on-accent);
     }
 
-    .btn-primary:hover {
-        background: #22d3ee;
-        transform: translateY(-3px);
-        box-shadow: 0 15px 30px rgba(14, 165, 164, 0.4);
-    }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px var(--shadow-color);
+            filter: brightness(1.05);
+        }
 
     .btn-secondary {
-        background: transparent;
-        color: #0ea5a4;
-        border: 2px solid #0ea5a4;
+        background: var(--btn-secondary-bg);
+        border: 2px solid var(--btn-secondary-border);
+        color: var(--accent-rose-gold);
     }
 
-    .btn-secondary:hover {
-        background: #0ea5a4;
-        color: white;
-        transform: translateY(-3px);
-    }
+        .btn-secondary:hover {
+            background: var(--btn-secondary-hover);
+            color: var(--text-primary);
+            border-color: var(--accent-rose-gold);
+            transform: translateY(-3px);
+        }
 
     /* Responsive Design */
     @@media (max-width: 768px) {
